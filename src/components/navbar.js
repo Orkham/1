@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 const StyledNavbar = styled.nav`
-	font-family: "Quicksand", sans-serif;
 	ul {
 		display: flex;
 		padding-left: 0;
@@ -13,6 +12,7 @@ const StyledNavbar = styled.nav`
 				text-decoration: none;
 				border: none;
 				background: none;
+				font-family: "Quicksand", sans-serif;
 				:hover {
 					cursor: pointer;
 				}
