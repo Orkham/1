@@ -8,6 +8,7 @@ const StyledHero = styled.section`
 	background-position: center;
 	background-repeat: no-repeat;
 	height: 600px;
+	justify-content: center;
 `;
 
 export default function Hero() {
