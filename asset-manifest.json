@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Orkham/1.git/static/css/main.a0d1c9b5.css",
+    "main.js": "/Orkham/1.git/static/js/main.ae7c771a.js",
+    "static/media/naruto2.jpg": "/Orkham/1.git/static/media/naruto2.0d351b440cadf70d914e.jpg",
+    "index.html": "/Orkham/1.git/index.html",
+    "main.a0d1c9b5.css.map": "/Orkham/1.git/static/css/main.a0d1c9b5.css.map",
+    "main.ae7c771a.js.map": "/Orkham/1.git/static/js/main.ae7c771a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a0d1c9b5.css",
+    "static/js/main.ae7c771a.js"
+  ]
+}

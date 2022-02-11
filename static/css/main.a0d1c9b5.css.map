@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.a0d1c9b5.css","mappings":"AAEE,qBACC","sources":["App.scss"],"sourcesContent":["#main {\n\t#main_in {\n\t\t#deep {\n\t\t\tcolor: blue;\n\t\t}\n\t}\n}\n"],"names":[],"sourceRoot":""}
