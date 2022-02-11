@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 const StyledTitle = styled.div`
+	--primary-color: #f0874d;
 	display: flex;
 	flex-direction: column;
 	width: 100%;
@@ -26,6 +27,19 @@ const StyledTitle = styled.div`
 		width: 100%;
 		justify-content: space-around;
 		button {
+			background-color: var(--primary-color);
+			border-radius: 10px;
+			border: 4px double #cccccc;
+			color: #eeeeee;
+			text-align: center;
+			font-size: 28px;
+			padding: 20px;
+			width: 200px;
+			-webkit-transition: all 0.5s;
+			-moz-transition: all 0.5s;
+			-o-transition: all 0.5s;
+			transition: all 0.5s;
+			cursor: pointer;
 		}
 	}
 `;
