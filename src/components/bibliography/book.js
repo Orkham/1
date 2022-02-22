@@ -3,6 +3,7 @@ import styled from "styled-components";
 const StyledBook = styled.div`
 	display: flex;
 	width: 100%;
+	height: 60px;
 	.year {
 		color: #f0874d;
 		flex-grow: 1;
@@ -19,6 +20,7 @@ const StyledBook = styled.div`
 		}
 		.story {
 			font-size: smaller;
+			color: rgba(137, 137, 137, 1);
 		}
 	}
 `;
