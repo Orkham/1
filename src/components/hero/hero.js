@@ -7,6 +7,7 @@ const StyledHero = styled.section`
 	background-image: url(${narutobg});
 	background-position: center;
 	background-repeat: no-repeat;
+	background-size: cover;
 	height: 600px;
 	justify-content: center;
 `;
