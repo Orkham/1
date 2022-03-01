@@ -1,33 +1,17 @@
 import styled from "styled-components";
 import UnderConstructionImg from "../../assets/img/under_construction/under_construction.png";
-import { Link } from "react-router-dom";
+import Button from "../button";
 
 const StyledTemporaryPage = styled.div`
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
+	background: black;
 	img {
 		margin-top: 2rem;
 		width: 90%;
 	}
-	button {
-		margin: 2rem 0;
-		width: 10rem;
-		height: 2rem;
-		border-radius: 25px;
-		background: #ffd2a4;
-		border: none;
-		:hover {
-			cursor: pointer;
-			transition: 0.3s;
-			box-shadow: 5px 5px 0 pink;
-		}
-		a {
-			text-decoration: none;
-			color: black;
-			font-family: "Quicksand", sans-serif;
-		}
 	}
 `;
 
@@ -38,9 +22,7 @@ export default function TemporaryPage() {
 				src={UnderConstructionImg}
 				alt="page en cours de construction"
 			/>
-			<button>
-				<Link to="/1">Retour à l'accueil</Link>
-			</button>
+			<Button name="Retour à l'accueil" link="/1" />
 		</StyledTemporaryPage>
 	);
 }

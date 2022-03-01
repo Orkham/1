@@ -1,27 +1,29 @@
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
-const StyledButton = styled.button`
+const StyledButton = styled(Link)`
+	margin: 2rem 0;
+	width: 10rem;
+	height: 2rem;
+	border-radius: 25px;
+	background: #ffd2a4;
+	border: none;
+	text-decoration: none;
+	color: black;
+	font-family: "Questrial", sans-serif;
 	display: flex;
 	justify-content: center;
-	align-item: center;
-	width: 10rem;
-	font-family: "Quicksand", sans-serif;
-	margin: 1rem;
-	background-color: #f0874d;
-	border: border: 5px outset #F0874D;
-	border-radius: 10px;
-	cursor: pointer;
-	padding: 1rem;
-  :hover{
-    color:white;
-  }
-  :active{
-    background-color: #ee1f17;
-    box-shadow: 0 5px #666;
-    transform: translateY(4px);
-  }
+	align-items: center;
+	:hover {
+		cursor: pointer;
+		transition: 0.3s;
+		box-shadow: 5px 5px 0 pink;
+	}
+	:active {
+		transform: translateY(4px);
+	}
 `;
 
 export default function Button(props) {
-	return <StyledButton>{props.name}</StyledButton>;
+	return <StyledButton to={props.link}>{props.name} </StyledButton>;
 }

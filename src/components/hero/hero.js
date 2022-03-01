@@ -1,21 +1,16 @@
 import styled from "styled-components";
-import narutobg from "./../../assets/banners/naruto2.jpg";
 import Title from "./title";
+import IdPhoto from "../../assets/img/id.png";
 
 const StyledHero = styled.section`
 	display: flex;
-	background-image: url(${narutobg});
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	height: 600px;
-	justify-content: center;
 `;
 
 export default function Hero() {
 	return (
 		<StyledHero>
 			<Title />
+			<img src={IdPhoto} alt="nicolas chatelais" />
 		</StyledHero>
 	);
 }
