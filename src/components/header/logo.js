@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 import logo from "../../assets/logo/Logoperso.svg";
 
@@ -18,7 +19,9 @@ const StyledLogo = styled.div`
 export default function Logo() {
 	return (
 		<StyledLogo className="logo">
-			<img src={logo} alt="nico dev" />
+			<Link to="/1">
+				<img src={logo} alt="nico dev" />
+			</Link>
 		</StyledLogo>
 	);
 }

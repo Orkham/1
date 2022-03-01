@@ -17,9 +17,10 @@ const StyledTemporaryPage = styled.div`
 		height: 2rem;
 		border-radius: 25px;
 		background: #ffd2a4;
+		border: none;
 		:hover {
 			cursor: pointer;
-			transition: 0.5s;
+			transition: 0.3s;
 			box-shadow: 5px 5px 0 pink;
 		}
 		a {

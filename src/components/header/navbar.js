@@ -21,6 +21,7 @@ const StyledNavbar = styled.nav`
 				color: #ffd2a4;
 				:hover {
 					cursor: pointer;
+					color: white;
 				}
 			}
 		}
