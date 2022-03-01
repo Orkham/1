@@ -1,20 +1,17 @@
-import "./App.scss";
-import Article from "./components/article";
-import Header from "./components/header";
-import Hero from "./components/hero/hero";
-import Biography from "./components/bibliography/author";
-import CharaListing from "./components/List";
-import Subtitle from "./components/subtitle";
+import { Route, Routes } from "react-router-dom";
+import Header from "./components/header/header";
+import TemporaryPage from "./components/temp/TemporaryPage";
 
 function App() {
 	return (
-		<div id="main">
+		<div>
 			<Header />
-			<Hero />
-			<Subtitle />
-			<Article />
-			<CharaListing />
-			<Biography />
+			<Routes>
+				<Route path="/1" element={<TemporaryPage />} exact />
+				<Route path="/realisations" element={<TemporaryPage />} />
+				<Route path="/documents" element={<TemporaryPage />} />
+				<Route path="/projets" element={<TemporaryPage />} />
+			</Routes>
 		</div>
 	);
 }

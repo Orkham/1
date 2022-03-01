@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import logo from "../../assets/logo/Logoperso.svg";
 
 const StyledLogo = styled.div`
 	@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap");
@@ -17,8 +18,7 @@ const StyledLogo = styled.div`
 export default function Logo() {
 	return (
 		<StyledLogo className="logo">
-			<p className="initials">JI | </p>
-			<p className="title"> Journ'Inté</p>
+			<img src={logo} alt="nico dev" />
 		</StyledLogo>
 	);
 }
